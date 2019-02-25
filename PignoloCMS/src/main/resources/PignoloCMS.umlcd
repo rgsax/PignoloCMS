@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_lMFD4DjpEem8Oqlb3IuzIA">
+  <eAnnotations xmi:id="_8pM1oDjpEem8Oqlb3IuzIA" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_8pNcsDjpEem8Oqlb3IuzIA" source="visual-filters/hideNonPublicElements">
+      <details xmi:id="_8pNcsTjpEem8Oqlb3IuzIA" key="isActive" value="false"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="PignoloCMS.uml#_lKxcUDjpEem8Oqlb3IuzIA"/>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

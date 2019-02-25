@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mariaDB-1690f5080f6-35b13029135f767a" provider="mysql" driver="mariaDB" name="MariaDB - pignolocms" save-password="true" read-only="false">
+		<connection host="chifacimudb.cki9ctegjpnd.eu-west-3.rds.amazonaws.com:3306" port="3306" server="" database="pignolocms" url="jdbc:mysql://chifacimudb.cki9ctegjpnd.eu-west-3.rds.amazonaws.com:3306:3306/pignolocms" user="chifacimu" password="EAwPJkBATRsQcuc=" home="/usr" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>

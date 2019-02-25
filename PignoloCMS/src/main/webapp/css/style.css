@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+	background-color: #f0f0f0 !important;
+}
+
+footer {
+	background-color: #2e3436 !important;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	width: 100%;
+}
+
+#problem_table tr:hover {
+	cursor: pointer; 
+}
+
+
+.container {
+	background-color: #ffffff;
+}
+
+.jumbotron-fluid {
+	background-image: url("../imgs/logo_extended.png");
+	background-color: #2e3436 !important;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;	
+}
