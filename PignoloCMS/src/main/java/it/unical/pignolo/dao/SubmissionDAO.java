@@ -55,8 +55,6 @@ public class SubmissionDAO extends DAO<Submission> {
 	}
 	
 	
-	// TODO: SubmissionProxy 
-	// TODO: DAO "complessi" che riutilizzano tutti la stessa Connection 
 	public List<Submission> getUserSubmissions(User u) {
 		List<Submission> us = new ArrayList<>(); 
 		try  {

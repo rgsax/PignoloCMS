@@ -25,7 +25,6 @@ public class RegisterServlet extends HttpServlet {
      */
     public RegisterServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
     
     
@@ -59,8 +58,7 @@ public class RegisterServlet extends HttpServlet {
 			try {
 				connection.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				throw new ServletException(e.getMessage());
 			} 
 		}	
 	}

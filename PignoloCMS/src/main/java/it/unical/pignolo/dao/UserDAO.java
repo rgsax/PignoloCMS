@@ -38,7 +38,6 @@ public class UserDAO extends DAO<User> {
 			}
 			ps.close(); 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -65,7 +64,6 @@ public class UserDAO extends DAO<User> {
 			}
 			ps.close(); 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -91,7 +89,6 @@ public class UserDAO extends DAO<User> {
 			}
 			ps.close(); 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -151,7 +148,6 @@ public class UserDAO extends DAO<User> {
 			ps.close(); 
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -182,7 +178,6 @@ public class UserDAO extends DAO<User> {
 			ps.close(); 
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -204,7 +199,6 @@ public class UserDAO extends DAO<User> {
 			ps.executeUpdate();
 			ps.close(); 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -224,7 +218,6 @@ public class UserDAO extends DAO<User> {
 			ps.executeUpdate();
 			ps.close(); 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -238,7 +231,6 @@ public class UserDAO extends DAO<User> {
 			ps.executeUpdate();
 			ps.close(); 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

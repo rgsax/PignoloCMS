@@ -30,7 +30,6 @@ public class StatusDAO extends DAO<Status> {
 			}
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -52,7 +51,6 @@ public class StatusDAO extends DAO<Status> {
 			}
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -76,7 +74,6 @@ public class StatusDAO extends DAO<Status> {
 			}
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 	}
@@ -91,7 +88,6 @@ public class StatusDAO extends DAO<Status> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -105,7 +101,6 @@ public class StatusDAO extends DAO<Status> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	
 	}	

@@ -42,7 +42,6 @@ public abstract class Solver {
 		    		status = DAOFactory.getInstance().createStatusDAO(connection).get(new Long(3)).get();//COMPILER_ERROR
 		    		connection.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 

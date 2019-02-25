@@ -33,7 +33,6 @@ public class TagDAO extends DAO<Tag> {
 			
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -56,7 +55,6 @@ public class TagDAO extends DAO<Tag> {
 				tags.add(new Tag(id, name));
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -80,7 +78,6 @@ public class TagDAO extends DAO<Tag> {
 			}
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -95,7 +92,6 @@ public class TagDAO extends DAO<Tag> {
 			ps.executeUpdate();
 			ps.close();			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -109,7 +105,6 @@ public class TagDAO extends DAO<Tag> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -130,7 +125,6 @@ public class TagDAO extends DAO<Tag> {
 				tags.add(new Tag(id, name));
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

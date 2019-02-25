@@ -21,7 +21,6 @@ public class QuestionsServlet extends HttpServlet {
 
     public QuestionsServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -33,8 +32,7 @@ public class QuestionsServlet extends HttpServlet {
 			request.setAttribute("questions", questions);
 			request.getRequestDispatcher("WEB-INF/questions.jsp").forward(request, response);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ServletException(e.getMessage());
 		}
 		
 	}

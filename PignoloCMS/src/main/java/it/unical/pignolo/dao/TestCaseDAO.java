@@ -67,7 +67,6 @@ public class TestCaseDAO extends DAO<TestCase> {
 
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	
 	}
@@ -177,7 +176,6 @@ public class TestCaseDAO extends DAO<TestCase> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 	}

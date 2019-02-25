@@ -27,7 +27,6 @@ public class LoginServlet extends HttpServlet {
      */
     public LoginServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 
@@ -61,8 +60,7 @@ public class LoginServlet extends HttpServlet {
 			try {
 				connection.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				throw new ServletException(e.getMessage());
 			} 
 		}
 	}

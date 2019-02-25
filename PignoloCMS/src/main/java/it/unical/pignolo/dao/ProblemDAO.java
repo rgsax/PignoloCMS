@@ -19,8 +19,6 @@ public class ProblemDAO extends DAO<Problem> {
 		super(c);
 	}
 
-	// TODO: Elencare i problemi assieme al # di sottomissioni totali (problemi più gettonati)
-	// TODO: Restituire map<Problem, Int> 
 	public Map<Problem, Integer> problemSubmissionCount() {
 		Map<Problem, Integer> m = new HashMap<Problem, Integer>(); 
 		try {
@@ -69,7 +67,6 @@ public class ProblemDAO extends DAO<Problem> {
 			
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -97,7 +94,6 @@ public class ProblemDAO extends DAO<Problem> {
 			
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -124,7 +120,6 @@ public class ProblemDAO extends DAO<Problem> {
 			
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -153,7 +148,6 @@ public class ProblemDAO extends DAO<Problem> {
 			ps.close();
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 	}
@@ -172,7 +166,6 @@ public class ProblemDAO extends DAO<Problem> {
 			ps.executeUpdate();	
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -186,7 +179,6 @@ public class ProblemDAO extends DAO<Problem> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

@@ -24,7 +24,6 @@ public class UserStatistics extends HttpServlet {
 
     public UserStatistics() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -45,14 +44,13 @@ public class UserStatistics extends HttpServlet {
 					+ ", \"compilationerror\":" + compilationerror + "}";
 			response.getWriter().write(json);
 		} catch (Exception e) {
-			e.printStackTrace();
+			throw new ServletException(e.getMessage());
 		} finally {
 			if (c != null)
 				try {
 					c.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+					throw new ServletException(e.getMessage());
 				} 
 		}
 	}

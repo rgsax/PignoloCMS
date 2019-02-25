@@ -16,7 +16,6 @@ public class AnswerDAO extends DAO<Answer> {
 		super(c);
 	}
 	
-	// TODO: Prendere tutte le risposte per una determinata domanda -> Question come parametro 
 	public List<Answer> answersToQuestion(Question q) {
 		List<Answer> as = new ArrayList<Answer>(); 		
 		try {

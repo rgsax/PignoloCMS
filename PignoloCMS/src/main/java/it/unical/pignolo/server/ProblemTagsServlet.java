@@ -31,7 +31,6 @@ public class ProblemTagsServlet extends HttpServlet {
 
     public ProblemTagsServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -66,8 +65,7 @@ public class ProblemTagsServlet extends HttpServlet {
 			try {
 				connection.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				throw new ServletException(e.getMessage());
 			} 
 		}
 		

@@ -259,7 +259,6 @@ public class ProblemStatisticsDAO extends DAO<ProblemStatistics> {
 			ps.close();
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -278,7 +277,6 @@ public class ProblemStatisticsDAO extends DAO<ProblemStatistics> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -295,7 +293,6 @@ public class ProblemStatisticsDAO extends DAO<ProblemStatistics> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -309,7 +306,6 @@ public class ProblemStatisticsDAO extends DAO<ProblemStatistics> {
 			ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -336,7 +332,6 @@ public class ProblemStatisticsDAO extends DAO<ProblemStatistics> {
 			
 			ps.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

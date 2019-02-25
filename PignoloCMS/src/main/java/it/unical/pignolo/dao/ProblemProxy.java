@@ -32,7 +32,6 @@ public class ProblemProxy extends Problem {
 				problemTags = td.getProblemTags(this);
 				connection.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -51,7 +50,6 @@ public class ProblemProxy extends Problem {
 				problemStats = psd.get(getId()).get();
 				connection.close(); 
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -71,7 +69,6 @@ public class ProblemProxy extends Problem {
 				problemTestCases = tcd.getProblemTestCases(this);
 				connection.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 

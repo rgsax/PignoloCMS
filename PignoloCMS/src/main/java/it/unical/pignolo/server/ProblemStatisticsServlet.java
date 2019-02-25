@@ -34,8 +34,7 @@ public class ProblemStatisticsServlet extends HttpServlet {
 		Long problemId = Long.parseLong(request.getParameter("problemId"));
 		Long userId = ((User) request.getSession(false).getAttribute(ServerUtils.LOGGED_USER_SESSION_NAME)).getId();
 		ProblemStatisticsDAO psd = DAOFactory.getInstance().createProblemStatisticsDAO(c); 
-		
-		// TODO: dao per le robe 
+		 
 		// correct-submissions
 		int CS = psd.getAcceptedSubmissionsForProblem(problemId); 
 		// total-submissions
@@ -55,7 +54,6 @@ public class ProblemStatisticsServlet extends HttpServlet {
 			try {
 				if ( c != null ) c.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} 
 		}

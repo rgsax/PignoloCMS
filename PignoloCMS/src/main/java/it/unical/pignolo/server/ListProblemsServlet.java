@@ -22,7 +22,6 @@ public class ListProblemsServlet extends HttpServlet {
 
     public ListProblemsServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
